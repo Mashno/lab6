@@ -1,3 +1,3 @@
 all:
-	clang second.c -o bin -g
+	clang function.c task.c -o bin -g
 	valgrind --leak-check=full ./bin
